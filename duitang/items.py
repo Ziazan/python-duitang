@@ -19,4 +19,6 @@ class DuiTangItem(scrapy.Item):
     #启用图片下载，用到了这两个
     image_urls = scrapy.Field()
     images = scrapy.Field()
+    # 生成的图路径
+    image_paths = scrapy.Field()
     pass
