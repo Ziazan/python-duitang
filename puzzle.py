@@ -8,12 +8,12 @@ import math
 import sys
 from colorsys import rgb_to_hsv
 
-SLICE_SIZE = 100
-OUT_SIZE = 5000
+SLICE_SIZE = 10
+OUT_SIZE = 1000
 IN_DIR = "database/full/"
 OUT_DIR = "output/"
-DIFF_FAR = 10000
-REPATE = 0
+DIFF_FAR = 100
+REPATE = 1
 
 #计算图片的平均RGB
 def get_avg_color(img):
